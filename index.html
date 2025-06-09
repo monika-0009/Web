@@ -1,1 +1,205 @@
+
 <h1>Hello GitHub</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monika | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #C71585;
+      --secondary: #c2fcf3;
+      --accent: #954fc3; 
+    }
+    * {
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--secondary);
+      color:red;
+      line-height: 1.6;
+    }
+  p1{
+    color:saddlebrown;
+  }
+
+    h1, h2, h3 {
+      font-family: 'Poppins', sans-serif;
+      color: var(--primary);
+    }
+
+    header {
+      background-color: var(--primary);
+      padding: 2px;
+      text-align: center;
+      color: white;
+    }
+
+    nav a {
+      color: white;
+      margin:0.10;
+      text-decoration: none;
+      
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .button {
+      background-color: var(--accent);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+  .skills {
+      background-color: #ffe4c4;
+      padding: 2rem;
+    }
+
+    .skill {
+      margin-bottom: 1rem;
+    }
+  .bar {
+      background-color:#ddd;
+      border-radius: 20px;
+      overflow: hidden;
+      height: 20px;
+    }
+
+    .bar-fill {
+      background-color:green; 
+      height: 100%;
+      text-align: right;
+      padding-right: 5px;
+      color: white;
+    }
+
+    footer {
+      background-color: var(--primary);
+      color:white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 align="center">Monika's Portfolio</h1>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <section id="about">
+    <h5 align="left"><a href="home.html">home</a><span style='font-size:20px;'>&#127968;</span></h5>
+    <h5 align="right"><a href="search.html">search</a><span style='font-size:20px;'>&#128269;</span></h5><br><br><br>
+    <h2 align="center">About Me</h2><br>
+    <p>Hi! <span>&#128075;</span> I'm Monika, a 2nd-year BSc Computer Science <span style='font-size:20px;'>&#128187;</span> student at Vellore Institute Of Technology <span style='font-size:20px;'>&#127970;</span>. I love learning new things. I'm also interested in historical mystery stories!<span style='font-size:20px;'>&#128220;</span></p>
+    <iframe align="center" src="https://drive.google.com/file/d/13snQ9iTD79hopSJpjRIaZDOs5ZlV4KAL/preview" width="300" height="300" allow="autoplay"></iframe>
+  </section><br>
+  
+  <section id="skills">
+    <h2 align="center">My Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JAVA SCRIPT</li>
+      <li>PYTHON</li>
+      <li>C LANGUAGE</li>
+    </ul><br>
+    <iframe src="https://drive.google.com/file/d/13tS-c9trsBrGW0wd_ftbGi24hE_LuKPR/preview" width="300" height="300" allow="autoplay"></iframe>
+    <div class="skill">
+      <p>HTML</p>
+      <div class="bar">
+        <div class="bar-fill" style="width: 92%;">92%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>CSS</p>
+      <div class="bar">
+        <div class="bar-fill" style="width: 60%;">60%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>JAVA SCRIPT</p>
+      <div class="bar">
+        <div class="bar-fill" style="width:85%;">85%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>PYTHON</p>
+      <div class="bar">
+        <div class="bar-fill" style="width: 75%;">75%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>C LANGUAGE</p>
+      <div class="bar">
+        <div class="bar-fill" style="width:70%;">70%</div>
+      </div>
+    </div>
+  </section><br>
+  
+  <section>
+    <h1 align="center">My Favourite</h1>
+    <ul>
+      <li>Food</li>
+      <p1>Briyani</p1>
+      <li>Interest</li>
+      <p1>Listening to historical stories</p1>
+      <li>Personality</li>
+      <p1>Enjoy being alone </p1>
+      <li>Hobby</li>
+      <p1>Playing with kids</p1>
+      <li>Nature Love</li>
+      <p1>Watching  sunrise</p1>
+    </ul><br>
+    <iframe align="center" src="https://drive.google.com/file/d/13zcTnysae29eX8rwJUc52PpEvtCIv58O/preview" width="300" height="300" allow="autoplay"></iframe>
+  </section><br>
+  <section id="projects">
+    <h2 align="center">Projects</h2><br>
+    <div>
+      <h3>Library Management System</h3><br>
+      <p>Java desktop app for managing book borrow/return.</p><br>
+      <a href="#" class="button">View Project</a><br><br>
+    <img src="girl.png" height="300" width="300">
+      
+    </div>
+    <div><br><br>
+      <h3>My Portfolio Website</h3><br>
+      <p>This site! Built with HTML and CSS, hosted on GitHub Pages.</p><br>
+      <a href="#" class="button">View Live</a>
+    </div>
+  </section><br>
+
+  <section id="contact">
+    <h3 align="center">Contact Me</h2>
+    <p>Email : monika@gmail.com</p>
+    <p><span style='font-size:20px;'>&#128222;</span> : 9538618495</p>
+  </section><br>
+ 
+  <footer>
+    <p>&copy; Monika | Designed With Full OF Love<span style='font-size:20px;'>&#10084;</span></p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
